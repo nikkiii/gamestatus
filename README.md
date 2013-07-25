@@ -10,13 +10,15 @@ A small and easy to use Javascript gameserver query
 
 - Upload to webhost
 - Download [gsquery](https://github.com/nikkii/gsquery) and put it into 'includes/gsquery/'
-- Create a div with the following format
+
+## Basic usage
 
 	<div class="serverstatus" data-address="example.com:27015" type="halflife"></div>
 	<script src="js/jquery.js"></script>
 	<script src="js/gamestatus.js"></script>
 
-- OR call it manually
+
+## Advanced usage
 
 	<div class="bla"></div>
 	<script src="js/jquery.js"></script>
@@ -27,7 +29,8 @@ A small and easy to use Javascript gameserver query
 			type : 'halflife'
 		});
 	</script>
-	
+
+
 ## License
 
 Copyright (c) 2013, Nikki (nospam at nikkii.us)
