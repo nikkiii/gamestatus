@@ -40,7 +40,10 @@
 			}
 			var addr = $this.data("address");
 			if(addr) {
-				$.getJSON(opts.queryUrl, { address: addr, type: type }, function(response) {
+				opts.address = addr;
+			}
+			if(opts.address) {
+				$.getJSON(opts.queryUrl, { address: opts.address, type: type }, function(response) {
 					if(opts.callback) {
 						opts.callback(response);
 					} else {
