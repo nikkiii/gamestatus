@@ -45,7 +45,7 @@ $config['blacklist'] = array(
  */
 $config['cache'] = array(
 	'type' => 'file',
-	'cachedir' => '/var/www/nikkii.us/gamestatus/cache/',
+	'cachedir' => 'cache/',
 	//Default cache time
 	'cachetime' => 30
 );
